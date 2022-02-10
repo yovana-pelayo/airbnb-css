@@ -76,9 +76,14 @@
   .pt1 { 
 	display: grid; 
 	grid-template-columns: 1fr 1fr 1fr; 
-	grid-area: pt1; }
+	grid-area: pt1, pt2; 
+padding: 0, 10px;}
 
-
+.pt2 { 
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-area: pt1, pt2; 
+padding: 0, 10px;}
 
 
 *{
