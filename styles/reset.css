@@ -19,19 +19,26 @@
 	  "inspiration- inspiration- ."
 	  "pt1 pt2 pt3"; 
   }
+  a {
+	  color: aliceblue;
+  }
   .menu {
 	display: grid; 
 	grid-template-columns: 1fr 1fr 1fr; 
 	grid-template-rows: 1fr 1fr 1fr; 
 	gap: 0px 0px; 
-	grid-template-areas: 
+	grid-template-areas:
 	  ". . ."
 	  ". . ."
 	  ". . ."; 
 	grid-area: menu; 
+	background-color: black;
+	color: aliceblue;
   }
   .search { grid-area: search; }
-  .background { grid-area: background; }
+  .background { 
+	  grid-area: background;
+	background-color: black; }
   .inspiration- { grid-area: inspiration-; }
   .pt1 { grid-area: pt1; }
   .pt2 { grid-area: pt2; }
@@ -39,7 +46,7 @@
 
 
 
-/* *{
+*{
     box-sizing: border-box;
 }
 
@@ -70,4 +77,4 @@ time, mark, audio, video {
 
 ol, ul {
 	list-style: none;
-} */
+}
