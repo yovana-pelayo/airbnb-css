@@ -73,9 +73,11 @@
 	  grid-area: background;
 	 }
   .inspiration- { grid-area: inspiration-; font-size: xx-large; font-weight: bolder;}
-  .pt1 { grid-area: pt1; }
-  .pt2 { grid-area: pt2; }
-  .pt3 { grid-area: pt3; }
+  .pt1 { 
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-area: pt1; }
+
 
 
 
