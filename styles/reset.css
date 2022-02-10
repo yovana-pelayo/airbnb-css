@@ -6,9 +6,10 @@
 
 
 
-
+@media(min-width:800px){
 .container {
 	display: grid; 
+	background-color: black;
 	grid-template-columns: 1fr 1fr 1fr; 
 	grid-template-rows: 0.2fr .3fr 2fr 0.2fr 1fr; 
 	gap: 0px 0px; 
@@ -19,27 +20,73 @@
 	  "inspiration- inspiration- ."
 	  "pt1 pt2 pt3"; 
   }
+  a {
+	  color: aliceblue;
+  }
+
+  a:hover {
+	background-color: rgb(253, 131, 243);
+  }
+
   .menu {
 	display: grid; 
 	grid-template-columns: 1fr 1fr 1fr; 
 	grid-template-rows: 1fr 1fr 1fr; 
 	gap: 0px 0px; 
-	grid-template-areas: 
+	grid-template-areas:
 	  ". . ."
 	  ". . ."
 	  ". . ."; 
 	grid-area: menu; 
+	background-color: black;
+	color: aliceblue;
   }
-  .search { grid-area: search; }
-  .background { grid-area: background; }
-  .inspiration- { grid-area: inspiration-; }
-  .pt1 { grid-area: pt1; }
-  .pt2 { grid-area: pt2; }
-  .pt3 { grid-area: pt3; }
+  .search a{
+	  color: black;
+  }
+  .search { 
 
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-template-rows: 1fr 1fr 1fr; 
+	gap: 0px 0px; 
+	grid-template-areas:
+	  ". . ."
+	  ". . ."
+	  ". . ."; 
+	  grid-area: search;
+	border-radius: 15%;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	width: 100%;
+	height: 150px; 
+	font-size: large;
+	font-weight: bolder;
+	background-color: white;
 
+ }
+  .background {  
 
-/* *{
+	background-image: url(../assets/background.jpg);
+	width: 100%;
+	height: 800px;
+	  grid-area: background;
+	 }
+  .inspiration- { grid-area: inspiration-; font-size: xx-large; font-weight: bolder;}
+  .pt1 { 
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-area: pt1, pt2; 
+padding: 0, 10px;}
+
+.pt2 { 
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-area: pt1, pt2; 
+padding: 0, 10px;}
+
+}
+*{
     box-sizing: border-box;
 }
 
@@ -70,4 +117,4 @@ time, mark, audio, video {
 
 ol, ul {
 	list-style: none;
-} */
+}
