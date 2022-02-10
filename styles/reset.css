@@ -36,10 +36,14 @@
 	color: aliceblue;
   }
   .search { grid-area: search; }
-  .background { 
+  .background {  
+
+	background-image: url(../assets/background.jpg);
+	width: 100%;
+	height: 800px;
 	  grid-area: background;
-	background-color: black; }
-  .inspiration- { grid-area: inspiration-; }
+	 }
+  .inspiration- { grid-area: inspiration-; font-size: xx-large; font-weight: bolder;}
   .pt1 { grid-area: pt1; }
   .pt2 { grid-area: pt2; }
   .pt3 { grid-area: pt3; }
