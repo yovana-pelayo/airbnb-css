@@ -6,7 +6,7 @@
 
 
 
-
+@media(min-width:800px){
 .container {
 	display: grid; 
 	background-color: black;
@@ -85,7 +85,7 @@ padding: 0, 10px;}
 	grid-area: pt1, pt2; 
 padding: 0, 10px;}
 
-
+}
 *{
     box-sizing: border-box;
 }
