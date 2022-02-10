@@ -24,6 +24,9 @@
 	  color: aliceblue;
   }
 
+  a:hover {
+	background-color: rgb(253, 131, 243);
+  }
 
   .menu {
 	display: grid; 
@@ -70,8 +73,7 @@
 	  grid-area: background;
 	 }
   .inspiration- { grid-area: inspiration-; font-size: xx-large; font-weight: bolder;}
-  .pt1 { grid-area: pt1;
-	url(../assets/background.jpg) }
+  .pt1 { grid-area: pt1; }
   .pt2 { grid-area: pt2; }
   .pt3 { grid-area: pt3; }
 
