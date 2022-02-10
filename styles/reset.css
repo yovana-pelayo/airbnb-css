@@ -47,7 +47,6 @@
 	  ". . ."
 	  ". . ."
 	  ". . ."; 
-	  display: grid;
 	  grid-area: search;
 	border-radius: 15%;
 	border: 2px solid #73AD21;
@@ -66,7 +65,8 @@
 	  grid-area: background;
 	 }
   .inspiration- { grid-area: inspiration-; font-size: xx-large; font-weight: bolder;}
-  .pt1 { grid-area: pt1; }
+  .pt1 { grid-area: pt1;
+	url(../assets/background.jpg) }
   .pt2 { grid-area: pt2; }
   .pt3 { grid-area: pt3; }
 
