@@ -4,7 +4,42 @@
    License: none (public domain)
 */
 
-*{
+
+
+
+.container {
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-template-rows: 0.2fr .3fr 2fr 0.2fr 1fr; 
+	gap: 0px 0px; 
+	grid-template-areas: 
+	  "menu menu menu"
+	  "search search search"
+	  "background background background"
+	  "inspiration- inspiration- ."
+	  "pt1 pt2 pt3"; 
+  }
+  .menu {
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-template-rows: 1fr 1fr 1fr; 
+	gap: 0px 0px; 
+	grid-template-areas: 
+	  ". . ."
+	  ". . ."
+	  ". . ."; 
+	grid-area: menu; 
+  }
+  .search { grid-area: search; }
+  .background { grid-area: background; }
+  .inspiration- { grid-area: inspiration-; }
+  .pt1 { grid-area: pt1; }
+  .pt2 { grid-area: pt2; }
+  .pt3 { grid-area: pt3; }
+
+
+
+/* *{
     box-sizing: border-box;
 }
 
@@ -35,4 +70,4 @@ time, mark, audio, video {
 
 ol, ul {
 	list-style: none;
-}
+} */
