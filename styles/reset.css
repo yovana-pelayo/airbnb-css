@@ -9,6 +9,7 @@
 
 .container {
 	display: grid; 
+	background-color: black;
 	grid-template-columns: 1fr 1fr 1fr; 
 	grid-template-rows: 0.2fr .3fr 2fr 0.2fr 1fr; 
 	gap: 0px 0px; 
@@ -37,6 +38,9 @@
 	background-color: black;
 	color: aliceblue;
   }
+  .search a{
+	  color: black;
+  }
   .search { 
 
 	display: grid; 
@@ -55,7 +59,8 @@
 	height: 150px; 
 	font-size: large;
 	font-weight: bolder;
-	background-color: black;
+	background-color: white;
+
  }
   .background {  
 
